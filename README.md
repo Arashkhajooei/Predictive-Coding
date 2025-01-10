@@ -22,7 +22,6 @@ The following diagram illustrates the architecture of the Predictive Coding (PC)
 - **Hidden Layer**: Contains the latent variables (\( \hat{x} \)) and their connections with the predictions (\( \mu \)).
 - **Output Layer**: Outputs (\( y \)) generated based on the computations from the previous layers.
 
-This architecture highlights how predictive coding integrates feedback (\( \mu \)) and latent variables (\( \hat{x} \)) to minimize prediction error.
 ---
 
 ## Analysis of Architectures on Noisy MNIST
