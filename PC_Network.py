@@ -14,9 +14,6 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 
-# ----------------------------
-# Predictive Coding Library
-# ----------------------------
 
 class PCLayer(nn.Module):
     def __init__(
@@ -439,9 +436,6 @@ class PCTrainer(object):
     
         return energies if named_layers else list(energies.values())
 
-# ----------------------------
-# MNIST Supervised Learning Example
-# ----------------------------
 
 # Set random seed for reproducibility
 torch.manual_seed(42)
@@ -523,7 +517,6 @@ def test(model, dataset, batch_size=1000):
     model.train()
     return round(correct / total, 4)
 
-# Training loop with energy tracking
 # Training loop with energy tracking
 epochs = 10
 test_acc = np.zeros(epochs + 1)
