@@ -16,7 +16,7 @@ The hybrid model combines Hebbian and PC layers to leverage both local learning 
 
 The following diagram illustrates the architecture of the Predictive Coding (PC) Layer:
 
-<img src="architecture.png" alt="PC Layer Architecture" width="600">
+<img src="https://github.com/Arashkhajooei/Predictive-Coding/blob/main/architecture_resized.png?raw=true" alt="PC Layer Architecture" width="400">
 
 - **Input Layer**: Initial input to the network.
 - **Hidden Layer**: Contains the latent variables (\( \hat{x} \)) and their connections with the predictions (\( \mu \)).
